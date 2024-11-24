@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ComplexityAnalyzerDBModelStoreContainer" CdmEntityContainer="ComplexityAnalyzerDBEntities">
+    <EntitySetMapping Name="users">
+      <EntityTypeMapping TypeName="ComplexityAnalyzerDBModel.user">
+        <MappingFragment StoreEntitySet="users">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="datelog" ColumnName="datelog" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UserSubmissions">
+      <EntityTypeMapping TypeName="ComplexityAnalyzerDBModel.UserSubmission">
+        <MappingFragment StoreEntitySet="UserSubmissions">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Code1" ColumnName="Code1" />
+          <ScalarProperty Name="Code2" ColumnName="Code2" />
+          <ScalarProperty Name="Code3" ColumnName="Code3" />
+          <ScalarProperty Name="Code4" ColumnName="Code4" />
+          <ScalarProperty Name="Code5" ColumnName="Code5" />
+          <ScalarProperty Name="starttime" ColumnName="starttime" />
+          <ScalarProperty Name="SubmissionDate" ColumnName="SubmissionDate" />
+          <ScalarProperty Name="totaltime" ColumnName="totaltime" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
